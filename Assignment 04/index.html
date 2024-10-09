@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <div class="card" id="profileCard">
+        <img src="." alt="Profile Picture" id="profilePic" class="profile-pic">
+        <div class="name" id="profileName">John Doe</div>
+        <div class="description" id="profileDescription">Web Developer</div>
+        <div class="controls">
+        <input type="text" id="inputField" placeholder="Enter new name/description">
+        <button onclick="changeName()">Change Name</button>
+        <button onclick="changeDescription()">Change Description</button>
+        <button onclick="changePicture()">Change Picture</button>
+        </div>
+        <div class="controls">
+        <input type="color" id="colorPicker">
+        <button onclick="changeBackgroundColor()">Change Background Color</button>
+        </div>
+        <button onclick="resetProfile()">Reset</button>
+        </div>
+</body>
+</html>
